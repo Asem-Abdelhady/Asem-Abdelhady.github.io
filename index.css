@@ -26,6 +26,10 @@ p{
     font-size: large;
 }
 
+div a{
+    color: white;
+}
+
 li a{
     color:blue
 }
