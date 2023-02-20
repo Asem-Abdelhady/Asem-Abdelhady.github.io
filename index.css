@@ -7,13 +7,11 @@ html{
     box-sizing: border-box;
   }
 
-body{
+  body{
     min-height: 95%;
     min-width: 95%;
-    display: flex;
     background-color: #ddd;
-    font-family: 'Neucha', cursive;
-    font-family: 'Work Sans', sans-serif;
+   
 }
 
 
@@ -32,6 +30,13 @@ div a{
 
 li a{
     color:blue
+}
+
+
+#profile_container{
+    display: flex;
+    font-family: 'Neucha', cursive;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #profile_card{
@@ -79,3 +84,17 @@ li a{
     color: black;
 }
 
+
+#comic{
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+
+}
+
+#comic > div{
+    margin: 5px;
+}
