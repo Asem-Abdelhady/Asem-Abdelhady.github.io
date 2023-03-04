@@ -48,7 +48,7 @@ const updateHtml = async () => {
   let imgSrc = res.img;
   let title = res.title;
   let alt = res.alt;
-  let date: Date = new Date(res.year, res.month + 1, res.day);
+  let date: Date = new Date(res.year, res.month - 1, res.day);
 
   img.src = imgSrc;
   img.alt = alt;
