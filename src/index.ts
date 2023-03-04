@@ -48,10 +48,8 @@ const updateHtml = async () => {
   let imgSrc = res.img;
   let title = res.title;
   let alt = res.alt;
-  //let content = res.transcript;
-  let date: Date = new Date(Date.UTC(res.year, res.month, res.day));
+  let date: Date = new Date(res.year, res.month + 1, res.day);
 
-  date.toLocaleDateString();
   img.src = imgSrc;
   img.alt = alt;
   comicTitleSpan.innerText = title;
