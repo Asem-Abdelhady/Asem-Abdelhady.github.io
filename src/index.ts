@@ -2,17 +2,17 @@ interface IId {
   id: number;
 }
 interface IComic {
-  month: number;
-  num: number;
+  month: string;
+  num: string;
   link: string;
-  year: number;
+  year: string;
   news: string;
   safe_title: string;
   transcript: string;
   alt: string;
   img: string;
   title: string;
-  day: number;
+  day: string;
 }
 
 const dateContentSpan = document.getElementById(
@@ -48,7 +48,11 @@ const updateHtml = async () => {
   let imgSrc = res.img;
   let title = res.title;
   let alt = res.alt;
-  let date: Date = new Date(res.year, res.month - 1, res.day);
+  let date: Date = new Date(
+    parseInt(res.year),
+    parseInt(res.month) - 1,
+    parseInt(res.day)
+  );
 
   img.src = imgSrc;
   img.alt = alt;
