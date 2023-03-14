@@ -1,15 +1,13 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import type { IComic } from "../interfaces/Comic";
-  import type { IId } from "../interfaces/Id";
 
   const EMAIL = "a.abdelhady@innopolis.university";
   const ID_BASE_URL = "https://fwd.innopolis.app/api/hw2";
   const COMIC_BASE_URL = "https://getxkcd.vercel.app/api/comic";
 
-  const getID: () => Promise<IId> = async () => {
+  const getID: () => Promise<number> = async () => {
     let res = await fetch(ID_BASE_URL + `?email=${EMAIL}`);
-    let resBody: IId = await res.json();
+    let resBody: number = await res.json();
     return resBody;
   };
 
