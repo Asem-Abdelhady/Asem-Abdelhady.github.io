@@ -1,11 +1,9 @@
 <script lang="ts">
-  import Comic from "./lib/Comic.svelte";
-  import ProfileContainer from "./lib/ProfileContainer.svelte";
+  import ProfileContainer from "$lib/ProfileContainer.svelte";
 </script>
 
 <main>
   <ProfileContainer />
-  <Comic />
 </main>
 
 <style>

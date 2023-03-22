@@ -1,11 +1,4 @@
 <script>
-  import Fa from "svelte-fa/src/fa.svelte";
-  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-  import {
-    faLinkedin,
-    faTelegram,
-    faGithub,
-  } from "@fortawesome/free-brands-svg-icons";
 </script>
 
 <div id="profile_card">
@@ -14,19 +7,6 @@
   <h1>Asem Abdelhady</h1>
   <p>21 years</p>
   <p>Student</p>
-  <div class="anchors_icons">
-    <a href="https://github.com/Asem-Abdelhady" id="gh-link"
-      ><Fa icon={faGithub} /></a
-    >
-    <a
-      href="https://www.linkedin.com/in/asem-abdelhady-21151b17a/"
-      id="linkedIn-link"><Fa icon={faLinkedin} /></a
-    >
-    <a href="https://t.me/AsemSH2" id="tg-link"><Fa icon={faTelegram} /></a>
-    <a href="mailto:asemshawkey@gmail.com" id="email"
-      ><Fa icon={faEnvelope} />
-    </a>
-  </div>
 </div>
 
 <style>
@@ -45,9 +25,5 @@
     border-radius: 50%;
     height: 200px;
     margin-top: 30px;
-  }
-  a {
-    color: white;
-    margin: 5px;
   }
 </style>

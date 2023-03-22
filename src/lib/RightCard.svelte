@@ -42,7 +42,7 @@
     flex: 75%;
     flex-flow: column;
     padding: 50px 50px;
-    background-color: white;
+    background-color: #ddd;
     border-radius: 20px;
   }
 </style>
