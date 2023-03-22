@@ -6,7 +6,6 @@
   <div class="logo">El3os</div>
 
   <ul class="nav-links">
-    <!-- NAVIGATION MENUS -->
     <div class="menu">
       <li><a href="{base}/">Home</a></li>
 

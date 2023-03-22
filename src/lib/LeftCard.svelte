@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
+  import photo from "$lib/assets/photo.jpg";
 </script>
 
 <div id="profile_card">
   <!-- svelte-ignore a11y-img-redundant-alt -->
-  <img src="/photo.jpg" alt="Profile picture" id="profile_picture" />
+  <img src={photo} alt="Profile picture" id="profile_picture" />
   <h1>Asem Abdelhady</h1>
   <p>21 years</p>
   <p>Student</p>

@@ -16,7 +16,7 @@ const config = {
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
     paths: {
-      base: dev ? "" : "Front-end-university-course-assignments",
+      base: dev ? "" : "/Front-end-university-course-assignments",
     },
   },
 };
