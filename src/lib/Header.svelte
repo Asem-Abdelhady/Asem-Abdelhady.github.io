@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
 </script>
 
 <nav class="navbar">
@@ -7,12 +8,12 @@
   <ul class="nav-links">
     <!-- NAVIGATION MENUS -->
     <div class="menu">
-      <li><a href="/">Home</a></li>
+      <li><a href="{base}/">Home</a></li>
 
-      <li><a href="/profile">Profile</a></li>
+      <li><a href="{base}/profile">Profile</a></li>
 
       <li>
-        <a href="/comic">Comic</a>
+        <a href="{base}/comic">Comic</a>
       </li>
     </div>
   </ul>

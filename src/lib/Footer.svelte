@@ -54,7 +54,7 @@
     width: fit-content;
     block-size: fit-content;
   }
-  .a:hover {
+  a:hover {
     box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
   }
 </style>
