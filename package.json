@@ -19,7 +19,7 @@
     "vite": "^4.0.0"
   },
   "type": "module",
-  "dependencies": {
+  "dependencomcies": {
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "svelte-fa": "^3.0.3"
